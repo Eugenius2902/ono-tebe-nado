@@ -162,7 +162,7 @@
 }
 
 .lots__card-list-item {
-  max-width: 334px;
+  width: 334px;
   min-height: 563px;
   flex-grow: 1;
 }
@@ -229,7 +229,6 @@
 
 .about {
   margin: 146px 24px 157px 24px;
-  min-height: 595px;
   display: grid;
   grid-template-columns: 334px 1fr;
   justify-content: center;
@@ -251,7 +250,6 @@
 .about__column {
   display: flex;
   flex-direction: column;
-  
 }
 
 .about__title {
@@ -304,7 +302,7 @@
   justify-content: end;
   flex-wrap: wrap;
   gap: 48px;
-  }
+}
 
 .footer__social-list-item {
   list-style: none;
